@@ -1,0 +1,97 @@
+/* Ensures the container takes up the full viewport height */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+}
+
+#form{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border: solid;
+    border-color: #DDDDDD;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-custom{
+    background-color: #EFEFEF;
+}
+
+#heading{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border: solid;
+    border-color: #DDDDDD;
+    margin-bottom: 20px;
+}
+
+#content{
+    background-color: #F7F7F7;
+    padding: 20px;
+    border: solid;
+    border-color: #DDDDDD;
+    margin-bottom: 20px;
+}
+
+#main{
+    padding-top: 110px; 
+}
+
+#footer_main{
+    background-color: #EFEFEF;
+    padding: 60px;
+}
+
+/* Style "delete" button */
+.link-button {
+    background:none; 
+    border:none; 
+    color:black; 
+    cursor:pointer;
+}
+.link-button:hover {
+    color: #ffffff;
+}
+.link-button:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+/* All links in the site are black */
+/* Unvisited link */
+a:link {
+    color: black;
+}
+/* Visited link */
+a:visited {
+    color: black;
+}
+/* Mouse-over link */
+a:hover {
+    color: black;
+}
+/* Active link */
+a:active {
+    color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: darkgrey; /* Set background color to dark grey */
+    height: 400px; /* Adjust the height as per your design */
+    width: 40px; /* Adjust the width as per your design */
+    top: auto; /* Reset the top value */
+    bottom: 0; /* Place it at the bottom of the carousel item */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: darkgrey; /* This will make the arrow inside the button also dark grey. Adjust color as per your design */
+}
+
+
+.error-message {
+    color: red !important;
+        font-weight: bold; /* For making text bold */
+}
